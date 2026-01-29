@@ -1,14 +1,17 @@
-@import "tailwindcss";
-
-
 @font-face {
-  font-family: "pricedown";
-  src: url("./pricedown.otf");
+  font-family: 'Pricedown';
+  /* Make sure this file is actually in src/fonts/ */
+  src: url('./fonts/pricedown.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@import "tailwindcss";
 
 html,
 body {
   width: 100%;
   height: 100%;
-  font-family: "pricedown";
+  /* UPDATE: Match the name exactly (Capital P) */
+  font-family: "Pricedown", sans-serif; 
 }

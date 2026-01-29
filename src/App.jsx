@@ -171,7 +171,7 @@ function App() {
                   <div className="line w-10 h-2 bg-white"></div>  {/* [EDIT]: Line 3 Color/Size */}
                 </div>
                 {/* [WELCOME TEXT] */}
-                <h3 className="text-4xl -mt-[2px] leading-none text-yellow-500"> {/* [EDIT]: text-orange-500 changes color */}
+                <h3 className="font-['Pricedown'] text-4xl -mt-[2px] leading-none text-yellow-500"> {/* [EDIT]: text-orange-500 changes color */}
                   WELCOME...  {/* [EDIT]: Change Name Here */}
                 </h3>
               </div>
@@ -195,7 +195,7 @@ function App() {
               />
               
               {/* [HERO TITLE TEXT] */}
-              <div className="text text-yellow-400 flex flex-col gap-3 absolute top-20 left-[75%] -translate-x-1/2 scale-[1.4] rotate-[-10deg]"> 
+              <div className="font-['Pricedown'] text text-yellow-400 flex flex-col gap-3 absolute top-20 left-[75%] -translate-x-1/2 scale-[1.4] rotate-[-10deg]"> 
                {/* [EDIT]: text-Yellow-400 changes title color */}
                 <h1 className="text-[7rem] leading-none -ml-40">3D GAME</h1>   {/* [EDIT]: Title Line 1 */}
                 <h1 className="text-[5rem] leading-none ml-20">ARTIST</h1>     {/* [EDIT]: Title Line 2 */}
